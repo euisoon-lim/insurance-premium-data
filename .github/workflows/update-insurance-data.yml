@@ -1,0 +1,134 @@
+name: Update Insurance Data
+
+on:
+  # 매주 월요일 오전 9시 (한국시간) 자동 실행
+  schedule:
+    - cron: '0 0 * * 1'  # UTC 기준 월요일 00:00 = 한국 09:00
+  
+  # 수동 실행 버튼
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Update Insurance Data
+        env:
+          MMLFCP_TOKEN: ${{ secrets.MMLFCP_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node << 'EOF'
+          const https = require('https');
+          const fs = require('fs');
+          
+          const MMLFCP_TOKEN = process.env.MMLFCP_TOKEN;
+          
+          const plans = [
+            { id: '921081111041', folder: 'comprehensive-norefund-100', minAge: 15, maxAge: 70 },
+            { id: '761081221041', folder: 'easy-335', minAge: 30, maxAge: 80 },
+            { id: '771081231041', folder: 'easy-355', minAge: 30, maxAge: 80 },
+            { id: '751081471041', folder: 'easy-31010', minAge: 30, maxAge: 80 }
+          ];
+          
+          function fetchData(url, token) {
+            return new Promise((resolve, reject) => {
+              const options = {
+                headers: { 'Authorization': `Bearer ${token}` }
+              };
+              https.get(url, options, (res) => {
+                let data = '';
+                res.on('data', chunk => data += chunk);
+                res.on('end', () => {
+                  try { resolve(JSON.parse(data)); }
+                  catch (e) { reject(e); }
+                });
+              }).on('error', reject);
+            });
+          }
+          
+          function convertToFormat(premiums) {
+            const coverageDict = {};
+            const productDict = {};
+            
+            for (const item of premiums) {
+              const name = item.coverage_name;
+              const company = item.company_name;
+              if (!coverageDict[name]) {
+                coverageDict[name] = { '담보명': name, '가입금액': String(item.guide_coverage_amount) };
+              }
+              coverageDict[name][company] = item.guide_coverage_premium;
+              productDict[company] = item.product_name;
+            }
+            
+            const jsonData = Object.values(coverageDict);
+            const totalRow = { '담보명': '합계', '가입금액': 'nan' };
+            for (const company of Object.keys(productDict)) {
+              totalRow[company] = jsonData.reduce((sum, row) => sum + (row[company] || 0), 0);
+            }
+            jsonData.push(totalRow);
+            
+            return { jsonData, productData: productDict };
+          }
+          
+          async function main() {
+            if (!MMLFCP_TOKEN) {
+              console.log('❌ MMLFCP_TOKEN이 설정되지 않았습니다.');
+              process.exit(1);
+            }
+            
+            for (const plan of plans) {
+              console.log(`\n📌 ${plan.folder} 시작...`);
+              
+              // 폴더 생성
+              if (!fs.existsSync(plan.folder)) {
+                fs.mkdirSync(plan.folder, { recursive: true });
+              }
+              
+              for (const gender of ['M', 'F']) {
+                const genderPrefix = gender === 'M' ? 'm' : 'w';
+                
+                for (let age = plan.minAge; age <= plan.maxAge; age += 5) {
+                  const apiUrl = `https://mmlfcp.ohmymanager.com/api/ProductPremiumsByAges?plan_id=${plan.id}&age=${age}&gender=${gender}`;
+                  
+                  try {
+                    const data = await fetchData(apiUrl, MMLFCP_TOKEN);
+                    const premiums = data.coverage_premiums_by_ages || [];
+                    
+                    if (premiums.length > 0) {
+                      const converted = convertToFormat(premiums);
+                      const fileName = `${plan.folder}/${genderPrefix}${age}.json`;
+                      fs.writeFileSync(fileName, JSON.stringify(converted, null, 2));
+                      console.log(`  ✅ ${fileName}`);
+                    }
+                  } catch (e) {
+                    console.log(`  ❌ ${genderPrefix}${age} 에러: ${e.message}`);
+                  }
+                  
+                  // API 부하 방지
+                  await new Promise(r => setTimeout(r, 300));
+                }
+              }
+            }
+            
+            console.log('\n🎉 데이터 업데이트 완료!');
+          }
+          
+          main();
+          EOF
+      
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff --staged --quiet || git commit -m "🔄 Auto-update insurance data $(date +'%Y-%m-%d')"
+          git push
