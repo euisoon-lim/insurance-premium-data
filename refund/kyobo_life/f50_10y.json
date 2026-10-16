@@ -1,0 +1,176 @@
+{
+  "company_code": "LKY",
+  "company_name": "교보생명",
+  "product_name": "교보K-실속종신보험(무배당) 2종(납입기간 저해약환급금형 50%)",
+  "insurance_type": "저해",
+  "gender": "F",
+  "age": 50,
+  "pay_years": 10,
+  "expiry": "종신",
+  "contract_amount_manwon": 1600,
+  "monthly_premium": 100800,
+  "birth": "19770101",
+  "refunds": [
+    {
+      "elapsed_year": 0,
+      "elapsed_month": 3,
+      "label": "3개월",
+      "accumulated_premium": 302400,
+      "refund_amount": 0,
+      "refund_rate": 0.0
+    },
+    {
+      "elapsed_year": 0,
+      "elapsed_month": 6,
+      "label": "6개월",
+      "accumulated_premium": 604800,
+      "refund_amount": 0,
+      "refund_rate": 0.0
+    },
+    {
+      "elapsed_year": 0,
+      "elapsed_month": 9,
+      "label": "9개월",
+      "accumulated_premium": 907200,
+      "refund_amount": 112814,
+      "refund_rate": 12.4
+    },
+    {
+      "elapsed_year": 1,
+      "elapsed_month": 0,
+      "label": "1년",
+      "accumulated_premium": 1209600,
+      "refund_amount": 249086,
+      "refund_rate": 20.6
+    },
+    {
+      "elapsed_year": 2,
+      "elapsed_month": 0,
+      "label": "2년",
+      "accumulated_premium": 2419200,
+      "refund_amount": 806251,
+      "refund_rate": 33.3
+    },
+    {
+      "elapsed_year": 3,
+      "elapsed_month": 0,
+      "label": "3년",
+      "accumulated_premium": 3628800,
+      "refund_amount": 1375897,
+      "refund_rate": 37.9
+    },
+    {
+      "elapsed_year": 4,
+      "elapsed_month": 0,
+      "label": "4년",
+      "accumulated_premium": 4838400,
+      "refund_amount": 1958103,
+      "refund_rate": 40.5
+    },
+    {
+      "elapsed_year": 5,
+      "elapsed_month": 0,
+      "label": "5년",
+      "accumulated_premium": 6048000,
+      "refund_amount": 2553349,
+      "refund_rate": 42.2
+    },
+    {
+      "elapsed_year": 6,
+      "elapsed_month": 0,
+      "label": "6년",
+      "accumulated_premium": 7257600,
+      "refund_amount": 3146034,
+      "refund_rate": 43.3
+    },
+    {
+      "elapsed_year": 7,
+      "elapsed_month": 0,
+      "label": "7년",
+      "accumulated_premium": 8467200,
+      "refund_amount": 3750160,
+      "refund_rate": 44.3
+    },
+    {
+      "elapsed_year": 8,
+      "elapsed_month": 0,
+      "label": "8년",
+      "accumulated_premium": 9676800,
+      "refund_amount": 4323600,
+      "refund_rate": 44.7
+    },
+    {
+      "elapsed_year": 9,
+      "elapsed_month": 0,
+      "label": "9년",
+      "accumulated_premium": 10886400,
+      "refund_amount": 4909120,
+      "refund_rate": 45.1
+    },
+    {
+      "elapsed_year": 10,
+      "elapsed_month": 0,
+      "label": "10년",
+      "accumulated_premium": 12096000,
+      "refund_amount": 13231004,
+      "refund_rate": 109.4
+    },
+    {
+      "elapsed_year": 15,
+      "elapsed_month": 0,
+      "label": "15년",
+      "accumulated_premium": 12096000,
+      "refund_amount": 14392033,
+      "refund_rate": 119.0
+    },
+    {
+      "elapsed_year": 20,
+      "elapsed_month": 0,
+      "label": "20년",
+      "accumulated_premium": 12096000,
+      "refund_amount": 15278808,
+      "refund_rate": 126.3
+    },
+    {
+      "elapsed_year": 25,
+      "elapsed_month": 0,
+      "label": "25년",
+      "accumulated_premium": 12096000,
+      "refund_amount": 16214139,
+      "refund_rate": 134.0
+    },
+    {
+      "elapsed_year": 30,
+      "elapsed_month": 0,
+      "label": "30년",
+      "accumulated_premium": 12096000,
+      "refund_amount": 17191281,
+      "refund_rate": 142.1
+    },
+    {
+      "elapsed_year": 35,
+      "elapsed_month": 0,
+      "label": "35년",
+      "accumulated_premium": 12096000,
+      "refund_amount": 18250728,
+      "refund_rate": 150.9
+    },
+    {
+      "elapsed_year": 40,
+      "elapsed_month": 0,
+      "label": "40년",
+      "accumulated_premium": 12096000,
+      "refund_amount": 19341511,
+      "refund_rate": 159.9
+    },
+    {
+      "elapsed_year": 45,
+      "elapsed_month": 0,
+      "label": "45년",
+      "accumulated_premium": 12096000,
+      "refund_amount": 20422625,
+      "refund_rate": 168.8
+    }
+  ],
+  "extracted_at": "2026-10-16T17:57:04.686075+09:00"
+}
