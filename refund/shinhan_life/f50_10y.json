@@ -1,0 +1,441 @@
+{
+  "company_code": "LSH",
+  "company_name": "신한라이프",
+  "product_name": "신한놀라운종신보험(무배당, 해약환급금 일부지급형) 1형(50%선지급형) 기본형",
+  "insurance_type": "저해",
+  "gender": "F",
+  "age": 50,
+  "pay_years": 10,
+  "expiry": "종신",
+  "contract_amount_manwon": 3500,
+  "monthly_premium": 302015,
+  "birth": "19770101",
+  "target_premium": 300000,
+  "refunds": [
+    {
+      "elapsed_year": 0,
+      "elapsed_month": 3,
+      "label": "3개월",
+      "accumulated_premium": 906045,
+      "refund_amount": 0,
+      "refund_rate": 0.0
+    },
+    {
+      "elapsed_year": 0,
+      "elapsed_month": 6,
+      "label": "6개월",
+      "accumulated_premium": 1812090,
+      "refund_amount": 0,
+      "refund_rate": 0.0
+    },
+    {
+      "elapsed_year": 0,
+      "elapsed_month": 9,
+      "label": "9개월",
+      "accumulated_premium": 2718135,
+      "refund_amount": 268314,
+      "refund_rate": 9.8
+    },
+    {
+      "elapsed_year": 1,
+      "elapsed_month": 0,
+      "label": "1년",
+      "accumulated_premium": 3624180,
+      "refund_amount": 661430,
+      "refund_rate": 18.2
+    },
+    {
+      "elapsed_year": 2,
+      "elapsed_month": 0,
+      "label": "2년",
+      "accumulated_premium": 7248360,
+      "refund_amount": 2263608,
+      "refund_rate": 31.2
+    },
+    {
+      "elapsed_year": 3,
+      "elapsed_month": 0,
+      "label": "3년",
+      "accumulated_premium": 10872540,
+      "refund_amount": 3902483,
+      "refund_rate": 35.8
+    },
+    {
+      "elapsed_year": 4,
+      "elapsed_month": 0,
+      "label": "4년",
+      "accumulated_premium": 14496720,
+      "refund_amount": 5589500,
+      "refund_rate": 38.5
+    },
+    {
+      "elapsed_year": 5,
+      "elapsed_month": 0,
+      "label": "5년",
+      "accumulated_premium": 18120900,
+      "refund_amount": 7326760,
+      "refund_rate": 40.4
+    },
+    {
+      "elapsed_year": 6,
+      "elapsed_month": 0,
+      "label": "6년",
+      "accumulated_premium": 21745080,
+      "refund_amount": 9116380,
+      "refund_rate": 41.9
+    },
+    {
+      "elapsed_year": 7,
+      "elapsed_month": 0,
+      "label": "7년",
+      "accumulated_premium": 25369260,
+      "refund_amount": 10960390,
+      "refund_rate": 43.2
+    },
+    {
+      "elapsed_year": 8,
+      "elapsed_month": 0,
+      "label": "8년",
+      "accumulated_premium": 28993440,
+      "refund_amount": 12730813,
+      "refund_rate": 43.9
+    },
+    {
+      "elapsed_year": 9,
+      "elapsed_month": 0,
+      "label": "9년",
+      "accumulated_premium": 32617620,
+      "refund_amount": 14560263,
+      "refund_rate": 44.6
+    },
+    {
+      "elapsed_year": 10,
+      "elapsed_month": 0,
+      "label": "10년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 35259182,
+      "refund_rate": 97.2
+    },
+    {
+      "elapsed_year": 11,
+      "elapsed_month": 0,
+      "label": "11년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 35753211,
+      "refund_rate": 98.6
+    },
+    {
+      "elapsed_year": 12,
+      "elapsed_month": 0,
+      "label": "12년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 36255673,
+      "refund_rate": 100.0
+    },
+    {
+      "elapsed_year": 13,
+      "elapsed_month": 0,
+      "label": "13년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 36766236,
+      "refund_rate": 101.4
+    },
+    {
+      "elapsed_year": 14,
+      "elapsed_month": 0,
+      "label": "14년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 37284464,
+      "refund_rate": 102.8
+    },
+    {
+      "elapsed_year": 15,
+      "elapsed_month": 0,
+      "label": "15년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 37810202,
+      "refund_rate": 104.3
+    },
+    {
+      "elapsed_year": 16,
+      "elapsed_month": 0,
+      "label": "16년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 38343645,
+      "refund_rate": 105.7
+    },
+    {
+      "elapsed_year": 17,
+      "elapsed_month": 0,
+      "label": "17년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 38884708,
+      "refund_rate": 107.2
+    },
+    {
+      "elapsed_year": 18,
+      "elapsed_month": 0,
+      "label": "18년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 39432853,
+      "refund_rate": 108.8
+    },
+    {
+      "elapsed_year": 19,
+      "elapsed_month": 0,
+      "label": "19년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 39987260,
+      "refund_rate": 110.3
+    },
+    {
+      "elapsed_year": 20,
+      "elapsed_month": 0,
+      "label": "20년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 40547951,
+      "refund_rate": 111.8
+    },
+    {
+      "elapsed_year": 21,
+      "elapsed_month": 0,
+      "label": "21년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 41115158,
+      "refund_rate": 113.4
+    },
+    {
+      "elapsed_year": 22,
+      "elapsed_month": 0,
+      "label": "22년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 41688344,
+      "refund_rate": 115.0
+    },
+    {
+      "elapsed_year": 23,
+      "elapsed_month": 0,
+      "label": "23년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 42265816,
+      "refund_rate": 116.6
+    },
+    {
+      "elapsed_year": 24,
+      "elapsed_month": 0,
+      "label": "24년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 42845289,
+      "refund_rate": 118.2
+    },
+    {
+      "elapsed_year": 25,
+      "elapsed_month": 0,
+      "label": "25년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 43426155,
+      "refund_rate": 119.8
+    },
+    {
+      "elapsed_year": 26,
+      "elapsed_month": 0,
+      "label": "26년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 44008720,
+      "refund_rate": 121.4
+    },
+    {
+      "elapsed_year": 27,
+      "elapsed_month": 0,
+      "label": "27년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 44592273,
+      "refund_rate": 123.0
+    },
+    {
+      "elapsed_year": 28,
+      "elapsed_month": 0,
+      "label": "28년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 45174074,
+      "refund_rate": 124.6
+    },
+    {
+      "elapsed_year": 29,
+      "elapsed_month": 0,
+      "label": "29년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 45750440,
+      "refund_rate": 126.2
+    },
+    {
+      "elapsed_year": 30,
+      "elapsed_month": 0,
+      "label": "30년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 46320382,
+      "refund_rate": 127.8
+    },
+    {
+      "elapsed_year": 31,
+      "elapsed_month": 0,
+      "label": "31년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 46884626,
+      "refund_rate": 129.3
+    },
+    {
+      "elapsed_year": 32,
+      "elapsed_month": 0,
+      "label": "32년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 47442956,
+      "refund_rate": 130.9
+    },
+    {
+      "elapsed_year": 33,
+      "elapsed_month": 0,
+      "label": "33년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 47992493,
+      "refund_rate": 132.4
+    },
+    {
+      "elapsed_year": 34,
+      "elapsed_month": 0,
+      "label": "34년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 48529243,
+      "refund_rate": 133.9
+    },
+    {
+      "elapsed_year": 35,
+      "elapsed_month": 0,
+      "label": "35년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 49052918,
+      "refund_rate": 135.3
+    },
+    {
+      "elapsed_year": 36,
+      "elapsed_month": 0,
+      "label": "36년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 49565125,
+      "refund_rate": 136.7
+    },
+    {
+      "elapsed_year": 37,
+      "elapsed_month": 0,
+      "label": "37년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 50065401,
+      "refund_rate": 138.1
+    },
+    {
+      "elapsed_year": 38,
+      "elapsed_month": 0,
+      "label": "38년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 50549020,
+      "refund_rate": 139.4
+    },
+    {
+      "elapsed_year": 39,
+      "elapsed_month": 0,
+      "label": "39년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 51009328,
+      "refund_rate": 140.7
+    },
+    {
+      "elapsed_year": 40,
+      "elapsed_month": 0,
+      "label": "40년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 51443415,
+      "refund_rate": 141.9
+    },
+    {
+      "elapsed_year": 41,
+      "elapsed_month": 0,
+      "label": "41년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 51852401,
+      "refund_rate": 143.0
+    },
+    {
+      "elapsed_year": 42,
+      "elapsed_month": 0,
+      "label": "42년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 52237614,
+      "refund_rate": 144.1
+    },
+    {
+      "elapsed_year": 43,
+      "elapsed_month": 0,
+      "label": "43년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 52597548,
+      "refund_rate": 145.1
+    },
+    {
+      "elapsed_year": 44,
+      "elapsed_month": 0,
+      "label": "44년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 52983618,
+      "refund_rate": 146.1
+    },
+    {
+      "elapsed_year": 45,
+      "elapsed_month": 0,
+      "label": "45년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 53335764,
+      "refund_rate": 147.1
+    },
+    {
+      "elapsed_year": 46,
+      "elapsed_month": 0,
+      "label": "46년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 53676422,
+      "refund_rate": 148.1
+    },
+    {
+      "elapsed_year": 47,
+      "elapsed_month": 0,
+      "label": "47년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 54010565,
+      "refund_rate": 149.0
+    },
+    {
+      "elapsed_year": 48,
+      "elapsed_month": 0,
+      "label": "48년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 54337460,
+      "refund_rate": 149.9
+    },
+    {
+      "elapsed_year": 49,
+      "elapsed_month": 0,
+      "label": "49년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 54654731,
+      "refund_rate": 150.8
+    },
+    {
+      "elapsed_year": 50,
+      "elapsed_month": 0,
+      "label": "50년",
+      "accumulated_premium": 36241800,
+      "refund_amount": 54962767,
+      "refund_rate": 151.6
+    }
+  ],
+  "extracted_at": "2026-10-16T19:40:51.528905+09:00"
+}
