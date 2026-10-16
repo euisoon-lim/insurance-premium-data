@@ -1,0 +1,363 @@
+{
+  "company_code": "LSA",
+  "company_name": "삼성생명",
+  "product_name": "더행복종신보험[저해약환급금형]",
+  "ui_code": "A070903ANNNNNNN",
+  "insurance_type": "저해",
+  "gender": "M",
+  "age": 40,
+  "pay_years": 10,
+  "expiry": "종신",
+  "contract_amount_manwon": 1600,
+  "monthly_premium": 202400.0,
+  "refunds": [
+    {
+      "elapsed_year": 0,
+      "elapsed_month": 3,
+      "label": "3개월",
+      "accumulated_premium": 607200,
+      "refund_amount": 0,
+      "refund_rate": 0.0
+    },
+    {
+      "elapsed_year": 0,
+      "elapsed_month": 6,
+      "label": "6개월",
+      "accumulated_premium": 1214400,
+      "refund_amount": 0,
+      "refund_rate": 0.0
+    },
+    {
+      "elapsed_year": 0,
+      "elapsed_month": 9,
+      "label": "9개월",
+      "accumulated_premium": 1821600,
+      "refund_amount": 213720,
+      "refund_rate": 11.7
+    },
+    {
+      "elapsed_year": 1,
+      "elapsed_month": 0,
+      "label": "1년",
+      "accumulated_premium": 2428800,
+      "refund_amount": 473390,
+      "refund_rate": 19.4
+    },
+    {
+      "elapsed_year": 2,
+      "elapsed_month": 0,
+      "label": "2년",
+      "accumulated_premium": 4857600,
+      "refund_amount": 1535340,
+      "refund_rate": 31.6
+    },
+    {
+      "elapsed_year": 3,
+      "elapsed_month": 0,
+      "label": "3년",
+      "accumulated_premium": 7286400,
+      "refund_amount": 2621380,
+      "refund_rate": 35.9
+    },
+    {
+      "elapsed_year": 4,
+      "elapsed_month": 0,
+      "label": "4년",
+      "accumulated_premium": 9715200,
+      "refund_amount": 3732290,
+      "refund_rate": 38.4
+    },
+    {
+      "elapsed_year": 5,
+      "elapsed_month": 0,
+      "label": "5년",
+      "accumulated_premium": 12144000,
+      "refund_amount": 4868810,
+      "refund_rate": 40.0
+    },
+    {
+      "elapsed_year": 6,
+      "elapsed_month": 0,
+      "label": "6년",
+      "accumulated_premium": 14572800,
+      "refund_amount": 6030600,
+      "refund_rate": 41.3
+    },
+    {
+      "elapsed_year": 7,
+      "elapsed_month": 0,
+      "label": "7년",
+      "accumulated_premium": 17001600,
+      "refund_amount": 7218480,
+      "refund_rate": 42.4
+    },
+    {
+      "elapsed_year": 8,
+      "elapsed_month": 0,
+      "label": "8년",
+      "accumulated_premium": 19430400,
+      "refund_amount": 8352240,
+      "refund_rate": 42.9
+    },
+    {
+      "elapsed_year": 9,
+      "elapsed_month": 0,
+      "label": "9년",
+      "accumulated_premium": 21859200,
+      "refund_amount": 9513360,
+      "refund_rate": 43.5
+    },
+    {
+      "elapsed_year": 10,
+      "elapsed_month": 0,
+      "label": "10년",
+      "accumulated_premium": 24288000,
+      "refund_amount": 27525850,
+      "refund_rate": 113.3
+    },
+    {
+      "elapsed_year": 15,
+      "elapsed_month": 0,
+      "label": "15년",
+      "accumulated_premium": 24288000,
+      "refund_amount": 28889760,
+      "refund_rate": 118.9
+    },
+    {
+      "elapsed_year": 20,
+      "elapsed_month": 0,
+      "label": "20년",
+      "accumulated_premium": 24288000,
+      "refund_amount": 30277250,
+      "refund_rate": 124.6
+    },
+    {
+      "elapsed_year": 25,
+      "elapsed_month": 0,
+      "label": "25년",
+      "accumulated_premium": 24288000,
+      "refund_amount": 31698680,
+      "refund_rate": 130.5
+    },
+    {
+      "elapsed_year": 30,
+      "elapsed_month": 0,
+      "label": "30년",
+      "accumulated_premium": 24288000,
+      "refund_amount": 33115180,
+      "refund_rate": 136.3
+    },
+    {
+      "elapsed_year": 35,
+      "elapsed_month": 0,
+      "label": "35년",
+      "accumulated_premium": 24288000,
+      "refund_amount": 34484520,
+      "refund_rate": 141.9
+    },
+    {
+      "elapsed_year": 40,
+      "elapsed_month": 0,
+      "label": "40년",
+      "accumulated_premium": 24288000,
+      "refund_amount": 35730220,
+      "refund_rate": 147.1
+    },
+    {
+      "elapsed_year": 45,
+      "elapsed_month": 0,
+      "label": "45년",
+      "accumulated_premium": 24288000,
+      "refund_amount": 36840460,
+      "refund_rate": 151.6
+    },
+    {
+      "elapsed_year": 50,
+      "elapsed_month": 0,
+      "label": "50년",
+      "accumulated_premium": 24288000,
+      "refund_amount": 37780630,
+      "refund_rate": 155.5
+    },
+    {
+      "elapsed_year": 55,
+      "elapsed_month": 0,
+      "label": "55년",
+      "accumulated_premium": 24288000,
+      "refund_amount": 38534860,
+      "refund_rate": 158.6
+    },
+    {
+      "elapsed_year": 60,
+      "elapsed_month": 0,
+      "label": "60년",
+      "accumulated_premium": 24288000,
+      "refund_amount": 39139600,
+      "refund_rate": 161.1
+    }
+  ],
+  "raw_listPlanHptsCcont": [
+    {
+      "psgMntFgr": "3",
+      "psgYr": "0",
+      "padPrmAggrAmt": "607200",
+      "rlpadPrmAggrAmt03": "607200",
+      "rlpadPrmAggrAmt": "607200"
+    },
+    {
+      "psgMntFgr": "6",
+      "psgYr": "0",
+      "padPrmAggrAmt": "1214400",
+      "rlpadPrmAggrAmt03": "1214400",
+      "rlpadPrmAggrAmt": "1214400"
+    },
+    {
+      "psgMntFgr": "9",
+      "psgYr": "0",
+      "padPrmAggrAmt": "1821600",
+      "rlpadPrmAggrAmt03": "1821600",
+      "rlpadPrmAggrAmt": "1821600"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "1",
+      "padPrmAggrAmt": "2428800",
+      "rlpadPrmAggrAmt03": "2428800",
+      "rlpadPrmAggrAmt": "2428800"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "2",
+      "padPrmAggrAmt": "4857600",
+      "rlpadPrmAggrAmt03": "4857600",
+      "rlpadPrmAggrAmt": "4857600"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "3",
+      "padPrmAggrAmt": "7286400",
+      "rlpadPrmAggrAmt03": "7286400",
+      "rlpadPrmAggrAmt": "7286400"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "4",
+      "padPrmAggrAmt": "9715200",
+      "rlpadPrmAggrAmt03": "9715200",
+      "rlpadPrmAggrAmt": "9715200"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "5",
+      "padPrmAggrAmt": "12144000",
+      "rlpadPrmAggrAmt03": "12144000",
+      "rlpadPrmAggrAmt": "12144000"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "6",
+      "padPrmAggrAmt": "14572800",
+      "rlpadPrmAggrAmt03": "14572800",
+      "rlpadPrmAggrAmt": "14572800"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "7",
+      "padPrmAggrAmt": "17001600",
+      "rlpadPrmAggrAmt03": "17001600",
+      "rlpadPrmAggrAmt": "17001600"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "8",
+      "padPrmAggrAmt": "19430400",
+      "rlpadPrmAggrAmt03": "19430400",
+      "rlpadPrmAggrAmt": "19430400"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "9",
+      "padPrmAggrAmt": "21859200",
+      "rlpadPrmAggrAmt03": "21859200",
+      "rlpadPrmAggrAmt": "21859200"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "10",
+      "padPrmAggrAmt": "24288000",
+      "rlpadPrmAggrAmt03": "24288000",
+      "rlpadPrmAggrAmt": "24288000"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "15",
+      "padPrmAggrAmt": "24288000",
+      "rlpadPrmAggrAmt03": "24288000",
+      "rlpadPrmAggrAmt": "24288000"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "20",
+      "padPrmAggrAmt": "24288000",
+      "rlpadPrmAggrAmt03": "24288000",
+      "rlpadPrmAggrAmt": "24288000"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "25",
+      "padPrmAggrAmt": "24288000",
+      "rlpadPrmAggrAmt03": "24288000",
+      "rlpadPrmAggrAmt": "24288000"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "30",
+      "padPrmAggrAmt": "24288000",
+      "rlpadPrmAggrAmt03": "24288000",
+      "rlpadPrmAggrAmt": "24288000"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "35",
+      "padPrmAggrAmt": "24288000",
+      "rlpadPrmAggrAmt03": "24288000",
+      "rlpadPrmAggrAmt": "24288000"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "40",
+      "padPrmAggrAmt": "24288000",
+      "rlpadPrmAggrAmt03": "24288000",
+      "rlpadPrmAggrAmt": "24288000"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "45",
+      "padPrmAggrAmt": "24288000",
+      "rlpadPrmAggrAmt03": "24288000",
+      "rlpadPrmAggrAmt": "24288000"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "50",
+      "padPrmAggrAmt": "24288000",
+      "rlpadPrmAggrAmt03": "24288000",
+      "rlpadPrmAggrAmt": "24288000"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "55",
+      "padPrmAggrAmt": "24288000",
+      "rlpadPrmAggrAmt03": "24288000",
+      "rlpadPrmAggrAmt": "24288000"
+    },
+    {
+      "psgMntFgr": "0",
+      "psgYr": "60",
+      "padPrmAggrAmt": "24288000",
+      "rlpadPrmAggrAmt03": "24288000",
+      "rlpadPrmAggrAmt": "24288000"
+    }
+  ],
+  "extracted_at": "2026-10-16T14:34:05"
+}
